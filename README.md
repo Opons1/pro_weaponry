@@ -25,4 +25,4 @@ Modpack that aims to provide professional weapons to minetest.
 
 **ISSUES AND BUGS**
 
-Issues can be seen and reported here or on the notabug mirror (https://notabug.org/W3RQ01/pro_weaponry)
+Issues can be seen and reported here or on the notabug mirror ~~(https://notabug.org/W3RQ01/pro_weaponry)~~ Notabug's dead, report here.
