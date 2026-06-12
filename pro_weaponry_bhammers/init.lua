@@ -1,12 +1,12 @@
 -- Author: W3RQ01
 -- License: GPL 3.0
 
-minetest.register_tool("pro_weaponry_bhammers:hammer_diamond", {
+core.register_tool("pro_weaponry_bhammers:hammer_diamond", {
 	description = "Diamond Battlehammer",
 	inventory_image = "hammer_diamond.png",
-	wield_scale = {x=2, y=3, z=1},
+	wield_scale = {x=3, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 2,
+		full_punch_interval = 3,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
@@ -15,7 +15,7 @@ minetest.register_tool("pro_weaponry_bhammers:hammer_diamond", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
         output = "pro_weaponry_bhammers:hammer_diamond",
         recipe = {
                 {'default:diamond','default:diamond','default:diamond'},
@@ -25,12 +25,12 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry_bhammers:hammer_mese", {
+core.register_tool("pro_weaponry_bhammers:hammer_mese", {
 	description = "Mese Battlehammer",
 	inventory_image = "hammer_mese.png",
-	wield_scale = {x=2, y=3, z=1},
+	wield_scale = {x=3, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 2,
+		full_punch_interval = 3,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=120, maxlevel=3},
@@ -39,7 +39,7 @@ minetest.register_tool("pro_weaponry_bhammers:hammer_mese", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
         output = "pro_weaponry_bhammers:hammer_mese",
         recipe = {
                 {'default:mese_crystal','default:mese_crystal','default:mese_crystal'},
@@ -49,12 +49,12 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry_bhammers:hammer_iron", {
+core.register_tool("pro_weaponry_bhammers:hammer_iron", {
 	description = "Iron Battlehammer",
 	inventory_image = "hammer_iron.png",
-	wield_scale = {x=2, y=3, z=1},
+	wield_scale = {x=3, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 2,
+		full_punch_interval = 3,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=105, maxlevel=3},
@@ -63,7 +63,7 @@ minetest.register_tool("pro_weaponry_bhammers:hammer_iron", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
         output = "pro_weaponry_bhammers:hammer_iron",
         recipe = {
                 {'default:steel_ingot','default:steel_ingot','default:steel_ingot'},
@@ -73,12 +73,12 @@ minetest.register_craft({
 })	
 
 
-minetest.register_tool("pro_weaponry_bhammers:hammer_stone", {
+core.register_tool("pro_weaponry_bhammers:hammer_stone", {
 	description = "Stone Battlehammer",
 	inventory_image = "hammer_stone.png",
-	wield_scale = {x=2, y=3, z=1},
+	wield_scale = {x=3, y=3, z=1},
 	tool_capabilities = {
-		full_punch_interval = 2,
+		full_punch_interval = 3,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=90, maxlevel=3},
@@ -87,7 +87,7 @@ minetest.register_tool("pro_weaponry_bhammers:hammer_stone", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
         output = "pro_weaponry_bhammers:hammer_stone",
         recipe = {
                 {'default:cobble','default:cobble','default:cobble'},

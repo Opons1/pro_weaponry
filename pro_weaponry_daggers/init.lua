@@ -1,20 +1,20 @@
 -- Author: W3RQ01
 -- License: GPL 3.0
 
-minetest.register_tool("pro_weaponry_daggers:dagger_diamond", {
+core.register_tool("pro_weaponry_daggers:dagger_diamond", {
 	description = "Diamond dagger",
 	inventory_image = "dagger_diamond.png",
 	tool_capabilities = {
-		full_punch_interval = 0.7,
+		full_punch_interval = 0.4,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
-		damage_groups = {fleshy=10},
+		damage_groups = {fleshy=5},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+	core.register_craft({
         output = "pro_weaponry_daggers:dagger_diamond",
         recipe = {
                 {'','',''},
@@ -24,20 +24,20 @@ minetest.register_craft({
 })
 
 
-minetest.register_tool("pro_weaponry_daggers:dagger_mese", {
+core.register_tool("pro_weaponry_daggers:dagger_mese", {
 	description = "Mese Dagger",
 	inventory_image = "dagger_mese.png",
 	tool_capabilities = {
-		full_punch_interval = 0.7,
+		full_punch_interval = 0.4,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=120, maxlevel=3},
 		},
-		damage_groups = {fleshy=8},
+		damage_groups = {fleshy=4},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
         output = "pro_weaponry_daggers:dagger_mese",
         recipe = {
                 {'','',''},
@@ -47,20 +47,20 @@ minetest.register_craft({
 })
 
 
-minetest.register_tool("pro_weaponry_daggers:dagger_iron", {
+core.register_tool("pro_weaponry_daggers:dagger_iron", {
 	description = "Iron Dagger",
 	inventory_image = "dagger_iron.png",
 	tool_capabilities = {
-		full_punch_interval = 0.7,
+		full_punch_interval = 0.5,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=105, maxlevel=3},
 		},
-		damage_groups = {fleshy=6.5},
+		damage_groups = {fleshy=4},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+	core.register_craft({
         output = "pro_weaponry_daggers:dagger_iron",
         recipe = {
                 {'','',''},
@@ -70,20 +70,20 @@ minetest.register_craft({
 })
 
 
-minetest.register_tool("pro_weaponry_daggers:dagger_stone", {
+core.register_tool("pro_weaponry_daggers:dagger_stone", {
 	description = "Stone Dagger",
 	inventory_image = "dagger_stone.png",
 	tool_capabilities = {
-		full_punch_interval = 0.7,
+		full_punch_interval = 0.6,
 		max_drop_level=3,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=70, maxlevel=3},
 		},
-		damage_groups = {fleshy=10},
+		damage_groups = {fleshy=4},
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+	core.register_craft({
         output = "pro_weaponry_daggers:dagger_stone",
         recipe = {
                 {'','',''},

@@ -1,2 +1,0 @@
-default
-pro_weaponry_tools
