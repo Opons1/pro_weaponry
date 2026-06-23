@@ -21,7 +21,7 @@ core.register_tool("pro_weaponry_sabers:saber_diamond", {
         recipe = {
                 {'','default:diamond','default:diamond'},
                 {'','default:diamond',''},
-                {'','pro_weaponry:handle',''},
+                {'','pro_weaponry_tools:handle',''},
 	}
 })
 
@@ -45,7 +45,7 @@ core.register_tool("pro_weaponry_sabers:saber_mese", {
         recipe = {
                 {'','default:mese_crystal','default:mese_crystal'},
                 {'','default:mese_crystal',''},
-                {'','pro_weaponry:handle',''},
+                {'','pro_weaponry_tools:handle',''},
 	}
 })
 
@@ -69,7 +69,7 @@ core.register_tool("pro_weaponry_sabers:saber_iron", {
         recipe = {
                 {'','default:steel_ingot','default:steel_ingot'},
                 {'','default:steel_ingot',''},
-                {'','pro_weaponry:handle',''},
+                {'','pro_weaponry_tools:handle',''},
 	}
 })	
 
@@ -93,6 +93,6 @@ core.register_tool("pro_weaponry_sabers:saber_stone", {
         recipe = {
                 {'','default:cobble','default:cobble'},
                 {'','default:cobble',''},
-                {'','pro_weaponry:handle',''},
+                {'','pro_weaponry_tools:handle',''},
 	}
 })
