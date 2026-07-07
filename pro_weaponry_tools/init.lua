@@ -5,7 +5,7 @@ core.register_tool("pro_weaponry_tools:handle", {
 	description = "Handle",
 	inventory_image = "handle.png",
 	wield_image = "handle.png",
-	stack_max = 99,
+	
 })
 	core.register_craft({
         output = "pro_weaponry_tools:handle",
@@ -21,7 +21,7 @@ core.register_tool("pro_weaponry_tools:pole", {
 	description = "Pole",
 	inventory_image = "pole.png",
 	wield_image = "pole.png",
-	stack_max = 99,
+	
 })
 core.register_craft({
         output = "pro_weaponry_tools:pole",
@@ -37,7 +37,7 @@ core.register_tool("pro_weaponry_tools:metal_handle", {
 	description = "Metal Handle",
 	inventory_image = "metal_handle.png",
 	wield_image = "metal_handle.png",
-	stack_max = 99,
+	
 })
 core.register_craft({
 	output = "pro_weaponry_tools:metal_handle",
@@ -53,7 +53,7 @@ core.register_tool("pro_weaponry_tools:metal_pole", {
 	description = "Metal Pole",
 	inventory_image = "metal_pole.png",
 	wield_image = "metal_pole.png",
-	stack_max = 99,
+	
 })
 core.register_craft({
 	output = "pro_weaponry_tools:metal_pole",
@@ -68,7 +68,7 @@ core.register_tool("pro_weaponry_tools:rubber_grip", {
 	description = "Rubber Grip",
 	inventory_image = "rubber_grip.png",
 	wield_image = "rubber_grip.png",
-	stack_max = 99,
+	
 })
 core.register_craft({
 	output = "pro_weaponry_tools:rubber_grip",

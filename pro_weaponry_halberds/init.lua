@@ -8,7 +8,7 @@ core.register_tool("pro_weaponry_halberds:halberd_diamond", {
 	tool_capabilities = {
 		full_punch_interval = 1.7,
 		max_drop_level=3,
-		range = 6,
+		range = 8,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
@@ -33,7 +33,7 @@ core.register_tool("pro_weaponry_halberds:halberd_mese", {
 	tool_capabilities = {
 		full_punch_interval = 1.7,
 		max_drop_level=3,
-		range = 6,
+		range = 8,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
@@ -58,7 +58,7 @@ core.register_tool("pro_weaponry_halberds:halberd_iron", {
 	tool_capabilities = {
 		full_punch_interval = 1.7,
 		max_drop_level=3,
-		range = 6,
+		range = 8,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
@@ -83,7 +83,7 @@ core.register_tool("pro_weaponry_halberds:halberd_stone", {
 	tool_capabilities = {
 		full_punch_interval = 1.7,
 		max_drop_level=3,
-		range = 6,
+		range = 8,
 		groupcaps={
 			oddly_breakable_by_hand={times={[1]=2.00, [2]=1.20, [3]=0.20}, uses=150, maxlevel=3},
 		},
